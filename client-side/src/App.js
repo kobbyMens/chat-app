@@ -1,16 +1,18 @@
 import React from 'react';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-import Join from './features/join/Join';
-import Chat from './features/chat/Chat';
+import Home from './features/login/Home';
+import Signup from './features/signup/Signup';
 
+//react-loader-spinner css
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 
 
 function App() {
   return (
     <Router>
       <Routes>
-      <Route path="/" exact element={<Join />} />
-      <Route path="/chat" element={<Chat />} /> 
+      <Route path="/" exact element={<Home />} />
+      <Route path="/sign-up" element={<Signup />} /> 
       </Routes>
     </Router>
   );

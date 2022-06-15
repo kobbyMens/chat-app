@@ -1,0 +1,41 @@
+.joinOuterContainer {
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.joinInnerContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-wrap {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.home-link {
+    padding: 10px;
+    width: 150px;
+    background-color: transparent;
+    font-size: 16px;
+    border: 3px solid;
+    text-decoration: none;
+    border-radius: 25px;
+    text-align: center;
+    transition: ease-in-out 0.3s;
+}
+
+.home-link:hover {
+    cursor: pointer;
+}
+
+.formArea {
+    display: flex;
+    flex-direction: column;
+    
+}
